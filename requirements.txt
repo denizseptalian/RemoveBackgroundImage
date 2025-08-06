@@ -1,13 +1,5 @@
-# Core dependencies
 streamlit==1.37.1
-rembg==2.0.56
-Pillow==10.2.0
-onnxruntime==1.17.1  # jika pakai CPU
-# onnxruntime-gpu==1.17.1  # gunakan ini jika ingin GPU (komentari yg CPU)
-
-# Optional dependencies (untuk stabilitas Streamlit)
-tornado==6.3.3
+rembg==2.0.67
+Pillow==10.4.0
 numpy==1.26.4
-
-# Utilities
-python-multipart==0.0.9
+onnxruntime-web==1.17.1
