@@ -7,6 +7,7 @@ import base64
 import os
 import traceback
 import time
+import onnxruntime_web as onnxruntime
 
 st.set_page_config(layout="wide", page_title="Image Background Remover")
 
